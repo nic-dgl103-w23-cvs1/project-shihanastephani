@@ -45,7 +45,105 @@ nav {
 .navbar-links li:hover {
   background-color: orange;
 }
+/*Welcome title*/
+.welcome-title {
+  font-size: 36px;
+  /* font-weight: bold; */
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+}
+/*welcome-description */
 
+.welcome-description {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+/*Details section*/
+.features-section {
+  margin-top: 50px;
+}
+
+.features-section h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-wrapper {
+  width: 25%;
+  margin: 10px;
+  
+}
+
+.image-wrapper img {
+  width: 100%;
+  /* max-height: 250px; */
+  /* height: 200px; */
+}
+
+.image-description {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: -5px;
+}
+
+.image-description h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.image-description p {
+  font-size: 14px;
+}
+
+/*Footer*/
+footer {
+  background-color: orange;
+  margin-top:20px;
+  padding: 10px;
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  width: 45%;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+/*Footer*/
 @media (max-width: 400px) {
   .logo {
     width: 50px;
