@@ -203,7 +203,70 @@ footer {
 /*About us*/
 
 /*Dining section*/
+.dining-section {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+.dining-section-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #777;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dining-section-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 /*Dining section*/
+
+/*Restaurant-and-menu section*/
+.restaurant-and-menu-section {
+  padding: 50px;
+  background-color: #a7b8ae;
+}
+.restaurant-and-menu-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.restaurant-and-menu-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-images img {
+  margin: 10px;
+  /* height: 100px;
+  width: 100px; */
+}
+
+.menu {
+  width: 30%;
+}
+
+.menu p {
+  text-align: center;
+}
+
+.menu h3 {
+  color: red;
+  text-align: center;
+}
+
+.menu-content {
+  background-color: white;
+  padding: 20px;
+}
+/*Restaurant-and-menu section*/
 
 @media (max-width: 400px) {
   .logo {
