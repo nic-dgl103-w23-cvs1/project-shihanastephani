@@ -268,6 +268,102 @@ footer {
 }
 /*Restaurant-and-menu section*/
 
+/*Reservation details*/
+.reservation-details {
+}
+
+.reservation-details-content h3 {
+  margin-left: 20px;
+}
+
+.reservation-details-content label {
+  margin-left: 20px;
+}
+.reservation-details-content input[type="radio"] {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*arrival-departure-dates*/
+
+.arrival-departure-dates {
+  display: flex;
+  width: 60%;
+  margin-top: 20px;
+
+  justify-content: space-between;
+}
+
+.arrival-departure-dates input[type="date"] {
+  margin-left: 20px;
+}
+
+/*arrival-departure-dates*/
+
+/* No of Rooms and Persons */
+.no-of-rooms-and-persons {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.no-of-rooms-and-persons input[type="number"] {
+  margin-left: 20px;
+}
+
+/* No of Rooms and Persons */
+
+/*Personal info*/
+.personal-info {
+}
+
+.personal-info h3 {
+  color: brown;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+
+.personal-info .input-field {
+  margin-top: 20px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.personal-info .input-field label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.personal-info .input-field input {
+  flex: 1;
+  padding: 5px;
+}
+/*Personal info*/
+
+
+/*Book now*/
+
+.button-container {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.book-now{
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: rgb(59, 142, 59);
+  color: white;
+  border-radius: 10px;
+}
+/*Book now*/
+/*Reservation details*/
+
 @media (max-width: 400px) {
   .logo {
     width: 50px;
