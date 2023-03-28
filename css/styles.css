@@ -5,8 +5,15 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f1ffe7;
-}
+  font-family: 'Open Sans', sans-serif;
 
+}
+p {
+  font-weight: 400;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat',sans-serif;
+}
 .content {
   flex: 1;
 }
