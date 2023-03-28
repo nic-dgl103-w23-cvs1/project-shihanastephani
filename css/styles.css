@@ -62,14 +62,8 @@ nav {
   background-color: #ffa500;
 }
 
-/* .content {
-  min-height: 100%;
-  margin-bottom: -100px; 
-  position: relative;
-} */
-
 /*Welcome title*/
-.welcome-title {
+.page-title {
   font-size: 36px;
   /* font-weight: bold; */
   text-align: center;
@@ -104,6 +98,7 @@ nav {
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .image-wrapper {
@@ -133,7 +128,7 @@ nav {
 }
 
 .image-description p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /*Footer*/
@@ -145,12 +140,6 @@ footer {
   font-size: 14px;
   font-weight: 300;
   text-align: center;
-  /* position: absolute; */
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  /* height: 100px; */
 }
 
 .footer-top {
@@ -437,15 +426,33 @@ footer {
     padding: 8px 16px;
   }
 
-  .welcome-title {
+  .page-title {
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 28px;
   }
   /* Home page */
+
+  .welcome-description {
+    font-size: 16px;
+  }
 
   .features-section h2 {
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  
+
+  p {
+    font-size: 16px;
+  }
+
+  .image-description p {
+    font-size: 16px;
   }
 
   .image-container {
@@ -459,15 +466,60 @@ footer {
     margin: 10px;
   }
   /* Home page */
+
+  /* About us */
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px; */
+  }
+  /* About us */
+
+  /* Restaurants  */
+  .restaurant-and-menu-section {
+    padding: 20px;
+  }
+  .dining-section-content h2 {
+    font-size: 24px;
+  }
+  .restaurant-and-menu-section h2 {
+    font-size: 24px;
+  }
+  .menu-images img {
+    margin: 10px 10px;
+    
+    height: 150px;
+    width: 15 0px;
+  }
+  .menu-images {
+    flex: 1;
+  }
+  .menu {
+    flex: 1;
+  }
+  /* Restaurants  */
 }
 
 /* Medium screens (600px to 999px) */
 @media (min-width: 600px) and (max-width: 999px) {
+  .page-title {
+    font-size: 32px;
+  }
   /* Home page */
+
+  .welcome-description {
+    font-size: 18px;
+  }
 
   .features-section h2 {
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
   }
 
   .image-container {
@@ -480,5 +532,18 @@ footer {
     width: 100%;
     margin: 10px;
   }
+  p {
+    font-size: 18px;
+  }
+
   /* Home page */
+
+  /* Restaurants  */
+  .dining-section-content h2 {
+    font-size: 28px;
+  }
+  .restaurant-and-menu-section h2 {
+    font-size: 28px;
+  }
+  /* Restaurants  */
 }
