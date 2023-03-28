@@ -7,17 +7,16 @@
     <link rel="icon" type="image/png" href="../images/logo.png" sizes="32x32" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 
-    <title>Ayubowan Resorts</title>
+    <title>Reservations</title>
   </head>
   <body>
     <header>
       <!-- Navigation bar and other header elements  -->
       <nav>
-        <img
-          src="../images/logo.png"
-          alt="Ayubowan Resorts Logo"
-          class="logo"
-        />
+        <a href="../index.html">
+          <img src="../images/logo.png" alt="Ayubowan Resorts Logo" class="logo" />
+
+        </a>
         <div class="navbar-links">
           <ul>
             <li><a href="../index.html">Home</a></li>
@@ -38,16 +37,17 @@
             <h3>Select Room Type</h3>
             <input
               type="radio"
-              name="Deluxe Single Room"
+              name="room-type"
               value="DSR"
               id="DSR"
+              
             />
 
             <label for="DSR"> Deluxe Single Room </label><br />
-            <input type="radio" name="Double Room" value="DR" id="DR" />
+            <input type="radio" name="room-type" value="DR" id="DR" />
 
             <label for="DR"> Double Room </label><br />
-            <input type="radio" name="Family Room" value="FR" id="FR" />
+            <input type="radio" name="room-type" value="FR" id="FR" />
 
             <label> Family Room </label><br />
             <!-- Room Type -->
@@ -126,6 +126,8 @@
         </div>
         <div class="footer-bottom">
           <p>&copy; 2022 Ayubowan Resorts. All rights reserved.</p>
+          <h4 >This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</h4>
+
         </div>
       </div>
     </footer>
