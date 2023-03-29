@@ -7,6 +7,36 @@ body {
   background-color: #f1ffe7;
   font-family: "Open Sans", sans-serif;
 }
+
+/* Welcome video */
+.video-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  
+}
+.video-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+/* Welcome video */
 p {
   font-weight: 400;
 }
@@ -235,6 +265,9 @@ footer {
   text-align: center;
   color: #6b4423;
 }
+.restaurant-and-menu-section p {
+  text-align: center;
+}
 .restaurant-and-menu-content {
   display: flex;
   justify-content: space-between;
@@ -380,12 +413,7 @@ footer {
   align-items: center;
   width: 80%;
 }
-.contact-us-content .logo {
-  /* display: inline-block; */
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-}
+
 .contact-info h2 {
   color: #6b4423;
 }
@@ -393,10 +421,24 @@ footer {
 .contact-info ul li {
   color: #2c5234;
 }
+.contact-us-content .location{
+  width: 40%;
+  height: 40%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
 /*contact us content*/
 /* Small screens (up to 599px) */
 
 @media (max-width: 599px) {
+  /* welcome video */
+  .video-container {
+    
+    padding-bottom: 75%;
+  }
+  /* welcome video */
+
   .logo {
     width: 50px;
     height: 50px;
@@ -445,7 +487,6 @@ footer {
   h3 {
     font-size: 20px;
   }
-  
 
   p {
     font-size: 16px;
@@ -489,7 +530,7 @@ footer {
   }
   .menu-images img {
     margin: 10px 10px;
-    
+
     height: 150px;
     width: 15 0px;
   }
@@ -508,6 +549,13 @@ footer {
     font-size: 32px;
   }
   /* Home page */
+
+   /* welcome video */
+   .video-container {
+    
+    padding-bottom: 56.25%;
+  }
+  /* welcome video */
 
   .welcome-description {
     font-size: 18px;
