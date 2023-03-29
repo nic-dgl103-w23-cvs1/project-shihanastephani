@@ -413,25 +413,30 @@ footer {
 /*Reservation details*/
 
 /*contact us content*/
+.contant-us-title h3 {
+  text-align: center;
+}
 .contact-us-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  display: block;
+  margin: 20px auto;
+  width: 90%;
 }
 
 .contact-info h2 {
   color: #6b4423;
+  text-align: center;
 }
-
+.contact-info ul {
+  text-align: center;
+  list-style-type: none;
+}
 .contact-info ul li {
   color: #2c5234;
 }
-.contact-us-content .location {
-  width: 40%;
-  height: 40%;
+.location {
+
+  display: block;
   margin: 0 auto;
-  object-fit: contain;
 }
 
 /*contact us content*/
