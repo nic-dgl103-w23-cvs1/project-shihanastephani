@@ -582,6 +582,18 @@ footer {
   }
 
   /* Reservation */
+
+
+  /* contact us */
+  .location {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .contant-us-title{
+    margin: 0 20px;
+  }
+  /* contact us */
 }
 
 /* Medium screens (600px to 999px) */
@@ -607,7 +619,7 @@ footer {
     font-size: 28px;
   }
   h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .image-container {
@@ -648,4 +660,11 @@ footer {
     object-fit: contain;
   }
   /* Reservation */
+ /* contact us */
+ .location {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+/* contact us */
 }
