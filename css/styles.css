@@ -313,8 +313,15 @@ footer {
 
 /*Reservation details*/
 .reservation-details {
+  display: flex;
 }
 
+.reservation-details img {
+  width: 50%;
+  object-fit: contain;
+}
+.reservation-details-content {
+}
 .reservation-details-content h3 {
   margin-left: 20px;
   color: #6b4423;
@@ -361,6 +368,7 @@ footer {
 
 /*Personal info*/
 .personal-info {
+  padding-right: 20px;
 }
 
 .personal-info h3 {
@@ -371,10 +379,9 @@ footer {
 
 .personal-info .input-field {
   margin-top: 20px;
-  width: 30%;
+
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .personal-info .input-field label {
   flex: 1;
@@ -382,7 +389,7 @@ footer {
 }
 
 .personal-info .input-field input {
-  flex: 1;
+  flex: 2;
   padding: 5px;
 }
 /*Personal info*/
