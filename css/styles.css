@@ -443,7 +443,7 @@ footer {
 @media (max-width: 599px) {
   /* welcome video */
   .video-container {
-    padding-bottom: 75%;
+    height: 40vh; /* change the height to 40vh for smaller screens */
   }
   /* welcome video */
 
@@ -560,7 +560,7 @@ footer {
 
   /* welcome video */
   .video-container {
-    padding-bottom: 56.25%;
+    height: 60vh; /* change the height to 60vh for medium screens */
   }
   /* welcome video */
 
