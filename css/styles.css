@@ -145,7 +145,6 @@ nav {
 }
 
 .image-description {
-  background-color: #f2f2f2;
   padding: 10px;
   margin-top: -5px;
 }
@@ -434,7 +433,6 @@ footer {
   color: #2c5234;
 }
 .location {
-
   display: block;
   margin: 0 auto;
 }
