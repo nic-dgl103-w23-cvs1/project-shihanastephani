@@ -435,7 +435,7 @@ footer {
 .contact-info ul li {
   color: #2c5234;
 }
-.location {
+.location iframe {
   display: block;
   margin: 0 auto;
 }
@@ -573,7 +573,7 @@ footer {
   }
 
   .no-of-rooms-and-persons {
-        /* background-color: red; */
+    /* background-color: red; */
 
     display: flex;
     width: 100%;
@@ -583,14 +583,13 @@ footer {
 
   /* Reservation */
 
-
   /* contact us */
-  .location {
+  .location iframe {
     display: block;
     margin: 0 auto;
     width: 80%;
   }
-  .contant-us-title{
+  .contant-us-title {
     margin: 0 20px;
   }
   /* contact us */
@@ -660,11 +659,11 @@ footer {
     object-fit: contain;
   }
   /* Reservation */
- /* contact us */
- .location {
-  display: block;
-  margin: 0 auto;
-  width: 80%;
-}
-/* contact us */
+  /* contact us */
+  .location iframe {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* contact us */
 }
